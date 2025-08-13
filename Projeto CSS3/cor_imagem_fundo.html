@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Cor e Imagem de Fundo</title>
+        <meta charset="utf-8">
+
+        <style type="text/css">
+            /*
+            .fundo {
+                background-color: #00FFFF;
+                color: #FF00FF;
+            }*/
+
+            h1 {
+                /*background-image: url('imagens/UZAWAREISA.jfif');*/
+
+                /* repeat-x, repeat-y, no-repeat, repeat*/
+                background-repeat: no-repeat;
+                
+                /*scroll, fixed*/
+                background-attachment: fixed;
+
+                /*primeiro valor: left, center, right
+                segundo valor: bottom, center, top*/
+                background-position: center center;
+            }
+
+            .fundo {
+                background: #FF00FF url('imagens/UZAWAREISA.jfif') no-repeat fixed center;
+            }
+
+        </style>
+
+
+    </head>
+
+    <body class="fundo">
+
+        <h1>Conteúdo de Título 1</h1>
+        
+    </body>
+
+</html>
