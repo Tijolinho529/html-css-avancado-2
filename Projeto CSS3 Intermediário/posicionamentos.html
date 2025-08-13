@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Posicionamentos</title>
+        <meta charset="utf-8">
+
+        <style type="text/css">
+
+            body {
+                background: #007fc7;
+            }
+
+            #container {
+                background: #FFF;
+                width: 800px;
+                margin: 10px auto;
+                padding: 10px;
+                position: relative;
+            }
+
+            P {
+                width: 300px;
+            }
+
+            .fixed {
+                border: 1px solid red;
+                background: #f2f2f2;
+                position: absolute;
+                top: 0px;
+                right: 0px;
+                
+            }
+
+            .absolute {
+                border: 1px solid red;
+                background: #f2f2f2;
+                position: absolute;
+                top: 80px;
+                right: 80px;
+            }
+
+            .relative {
+                border: 1px solid red;
+                position: relative;
+                /* top, right, bottom e left */
+               /*top: 0px;
+                left: 0px;
+                right: 20px;*/
+                bottom: -20px;
+            }
+
+
+        </style>
+
+    </head>
+    <body>
+
+        <div id="container">
+            
+            <h1>Posicionamentos</h1>
+
+            <p>
+                Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit. 
+                Aenean et erat sit amet arcu 
+                condimentum consectetur. 
+                Pellentesque sit amet libero 
+                at eros consectetur consectetur. 
+                Nullam suscipit orci eget 
+                leo ullamcorper, vel ornare 
+                erat ultricies.
+            </p>
+
+            <p class="fixed">
+                Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit. 
+                Donec fringilla vulputate 
+                pharetra. Nullam id felis 
+                vulputate, lacinia odio 
+                fringilla, aliquet eros. 
+                Morbi gravida ornare pharetra.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit. 
+                Fusce tempus ac arcu interdum 
+                finibus. Mauris fringilla 
+                massa et sagittis euismod. 
+                Maecenas interdum, ex id 
+                pulvinar hendrerit, turpis 
+                leo bibendum velit, a varius 
+                magna diam in felis.
+            </p>
+
+        </div>
+
+    </body>
+</html>
